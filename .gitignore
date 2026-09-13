@@ -1,0 +1,118 @@
+# ==========================================================================
+# Lunexa .gitignore
+# NOTE: model files (*.pt, *.pkl, *.json) are NOT ignored on purpose,
+# because the app needs them at runtime after deploy. If they get large
+# (>50 MB), use Git LFS instead of ignoring them.
+# ==========================================================================
+
+# --- Python bytecode & caches ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# --- Distribution / packaging ---
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# --- IDE / editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-*
+.spyderproject
+.spyproject
+.ropeproject
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- Streamlit ---
+.streamlit/secrets.toml
+.streamlit/cache/
+
+# --- Jupyter / notebooks ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# --- Logs ---
+*.log
+logs/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- Uploads, temp, prediction outputs ---
+uploads/
+tmp/
+temp/
+lunexa_*/
+_lunexa_ct.nii.gz
+_lunexa_mask.nii.gz
+predictions/
+outputs/
+
+# --- Environment / secrets ---
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# --- Coverage / testing ---
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+.hypothesis/
+coverage.xml
+*.cover
+
+# --- MyPy / type checkers ---
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# --- Datasets and DICOM (usually too big to push) ---
+# Uncomment if you keep sample data outside data/ or dataset/
+data/
+dataset/
+*.nii
+*.nii.gz
+sample_dicom/
+sample_rtstruct/
+
+# --- Node (only if you ever add a JS build step) ---
+node_modules/
