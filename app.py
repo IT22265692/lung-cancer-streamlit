@@ -46,12 +46,12 @@ SLIDESHOW = [
 ]
 
 SYMPTOM_CARDS = [
-    {"title": "Persistent cough", "desc": "A cough that does not go away or gets worse over weeks. May produce blood-tinged sputum.", "img": "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?w=700&q=80"},
-    {"title": "Shortness of breath", "desc": "Feeling breathless during routine activities or at rest can signal airway or lung involvement.", "img": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=700&q=80"},
-    {"title": "Chest pain", "desc": "Pain that worsens with deep breathing, coughing, or laughing. Often related to the chest wall or pleura.", "img": "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=700&q=80"},
-    {"title": "Hoarseness and wheezing", "desc": "Voice changes or new wheezing may occur if a tumor affects the larynx or large airways.", "img": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=700&q=80"},
-    {"title": "Unexplained weight loss", "desc": "Losing weight without trying, fatigue, and loss of appetite are common systemic signs.", "img": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=700&q=80"},
-    {"title": "Recurrent infections", "desc": "Repeated bronchitis or pneumonia in the same area of the lung can be a warning sign.", "img": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=700&q=80"},
+    {"title": "Persistent cough", "desc": "A cough that does not go away or gets worse over weeks. May produce blood-tinged sputum.", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNuAHaCwTH5tqXDpJebnBOI_YVnnonG0JvioJ4PM93Sg&s=10"},
+    {"title": "Shortness of breath", "desc": "Feeling breathless during routine activities or at rest can signal airway or lung involvement.", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtQ1i9R24TSK2dlkOptzC79LiJs9-kN0zKSt6V6-4lHw&s=10"},
+    {"title": "Chest pain", "desc": "Pain that worsens with deep breathing, coughing, or laughing. Often related to the chest wall or pleura.", "img": "https://cadenceheart.sg/wp-content/uploads/2022/01/shutterstock_1895012779-1024x576.jpg"},
+    {"title": "Hoarseness and wheezing", "desc": "Voice changes or new wheezing may occur if a tumor affects the larynx or large airways.", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbP5qG0W_damO_sK1LFxy0UHRr4AxLfayvDEPZDu1wMg&s=10"},
+    {"title": "Unexplained weight loss", "desc": "Losing weight without trying, fatigue, and loss of appetite are common systemic signs.", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_-Xl03se48IrYq8_bsg_aGwzGiwrNluyvKvfTezjRgVsc_DRvILAaCje&s=10"},
+    {"title": "Recurrent infections", "desc": "Repeated bronchitis or pneumonia in the same area of the lung can be a warning sign.", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfmtu8yRUjW9ig2juIdDSnhN-gLDB3MzMBCn5xhSlDPR5909W3Ivn0HdlD&s=10"},
 ]
 
 SYMPTOM_HERO = "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=1600&q=80"
