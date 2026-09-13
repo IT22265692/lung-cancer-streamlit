@@ -30,3 +30,4 @@ rt-utils==1.2.7
 matplotlib==3.8.4
 scikit-learn==1.4.2
 Pillow>=10.0.0
+gdown>=5.2.0
